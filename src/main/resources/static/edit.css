@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body{
+	background-color: #f5f7df;
+}
+
+.container{
+    padding: 3px;
+    height: 100%;
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to left, rgb(255, 255, 255) , rgba(91, 179, 185, 0.774));
+    border-radius: 5px;
+  }
+  h1{
+      text-align: center;
+      margin-top: 5%;
+      margin-right: 13%;
+      position: relative;
+      font-family: Chalkduster, fantasy;
+      color: rgb(51, 51, 51);
+  }
+  .logonav{
+    background-image: url(story.jpg);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px
+  }
+  .stopka{
+    list-style-type: none;
+    margin-top: 10%;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+
+  }
+  .stopka p{
+    text-align: center;
+    text-decoration: none; 
+  }
+    li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(142, 236, 200);
+  }
+  .dane{
+      font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 3%;
+        line-height: 250%;
+  }
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35%;
+    margin-right: 42%;
+    width: 15vh;
+    float: right;
+    margin-top: 1%;
+}
+div button {
+    background-color: rgb(41, 170, 36);
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 10%;
+    margin-right: 45%;
+    width: 15vh;
+    float: right;
+    margin-top: 1%; 
+  }
+form{
+    position: relative;
+}
+input{
+    margin-right: 45%;
+    width: 15vh;
+    float: right;
+    margin-top: 1%;
+}
+textarea{
+    margin-right: 45%;
+    width: 15vh;
+    float: right;
+    margin-top: 1%; 
+}
